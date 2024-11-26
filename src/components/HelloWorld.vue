@@ -28,7 +28,7 @@ export default {
 h3 {
   margin: 40px 0 0;
   font-weight: bold;
-  color: rgb(8, 163, 26);
+  color: rgb(106, 61, 255);
 }
 ul {
   list-style-type: none;
@@ -39,7 +39,7 @@ li {
   margin: 0 10px;
 }
 h1 {
-  color: rgb(8, 57, 4);
+  color: rgb(4, 4, 57)
   font-weight: bold;
 }
 </style>
