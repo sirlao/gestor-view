@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <!-- Barra de navegación con enlaces a diferentes rutas -->  
-    <nav class="navbar navbar-expand-lg navbar-light bg-success">
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
       <div class="container-fluid">        
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -11,12 +11,12 @@
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <router-link class="nav-link" to="/">
-                <i class="bi bi-house-door"></i> Inicio
+                <i class="bi bi-house-door"></i> Home
               </router-link>
             </li>
             <li class="nav-item">
               <router-link class="nav-link" to="/addtask">
-                <i class="bi bi-plus-circle"></i> Agregar Tarea
+                <i class="bi bi-plus-circle"></i> Añadir Tarea
               </router-link>
             </li>
             <li class="nav-item">

@@ -1,7 +1,7 @@
 <template>
     <div class="container my-5">
         <h1 class="text-center mb-4">Lista de Tareas</h1>
-        <button @click="fetchTasks" class="btn btn-dark w-100 mb-3">Cargar Tareas de la API</button>
+        <button @click="fetchTasks" class="btn btn-dark w-100 mb-3">Cargar tareas desde la API</button>
 
         <div v-if="tasks.length > 0" class="list-group">
             <div v-for="task in tasks" :key="task.id" class="list-group-item">
@@ -19,7 +19,7 @@
                         >
                             {{ task.completed ? 'Desmarcar' : 'Completar' }}
                         </button>
-                        <button @click="deleteTask(task)" class="btn btn-sm btn-danger ms-2">Eliminar</button>
+                        <button @click="deleteTask(task)" class="btn btn-sm btn-danger ms-2">Borrar</button>
                     </div>
                 </div>
             </div>

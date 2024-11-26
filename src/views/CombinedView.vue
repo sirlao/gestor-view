@@ -1,6 +1,6 @@
 <template>
     <div class="container my-5">
-        <h1 class="text-center mb-4">Gestión de Tareas</h1>
+        <h1 class="text-center mb-4">Lista de Tareas</h1>
 
         <!-- Sección para agregar tarea -->
         <div class="input-group mb-3">
@@ -10,11 +10,11 @@
                 placeholder="Añadir nueva tarea"
                 class="form-control"
             />
-            <button @click="addTask" class="btn btn-success">Agregar</button>
+            <button @click="addTask" class="btn btn-success">Añadir</button>
         </div>
 
         <!-- Botón para cargar tareas desde la API -->
-        <button @click="fetchTasks" class="btn btn-dark w-100 mb-3">Cargar Tareas de la API</button>
+        <button @click="fetchTasks" class="btn btn-primary w-100 mb-3">Cargar Tareas de la API</button>
 
         <!-- Lista de tareas -->
         <ul v-if="tasks.length > 0" class="list-group">
